@@ -5,8 +5,16 @@
     "start": "node index.js"
   },
   "dependencies": {
+    "axios": "^1.7.9",
     "body-parser": "^1.20.3",
-    "express": "^4.18.2",
-    "nodemon": "^3.1.7"
-  }
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "nodemon": "^3.1.9"
+  },
+  "version": "1.0.0",
+  "description": "You are tasked with developing a Library Management System API that allows users to manage a library's book collection stored in JSON format. The API should support all four CRUD operations (Create, Read, Update, Delete) for the book data. Each book in the library has the following attributes:",
+  "main": "index.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
 }
